@@ -42,6 +42,10 @@ nav div:first-of-type a:first-of-type {
   margin: 0 5px 0 15px;
 }
 
+nav div:first-of-type a:nth-of-type(2) {
+  margin: 0 5px;
+}
+
 nav div:nth-of-type(2) a {
   font-size: 13px;
   font-family: Arial, sans-serif;
