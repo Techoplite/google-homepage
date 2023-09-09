@@ -24,7 +24,6 @@ nav {
   padding: 8px;
 }
 
-
 nav div {
   display: flex;
   align-items: center;
@@ -66,13 +65,13 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* height: -webkit-fill-available; */
   height: calc(100% - 560px);
 }
 
 footer {
   display: flex;
   flex-direction: column;
+  background-color: #f2f2f2;
 }
 
 .search-bar {
@@ -88,13 +87,24 @@ p {
 }
 
 footer > div {
-  padding: 1rem;
+  padding: 15px 30px;
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+  color: #70757a;
+  border-bottom: 1px solid #dadce0;
 }
 
 .footer-bottom {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
+}
+
+.footer-bottom a {
+  font-family: Arial, sans-serif;
+  color: #70757a;
+  font-size: 14px;
+  padding: 15px;
 }
 
 .footer-bottom div:nth-of-type(2) {
@@ -180,7 +190,8 @@ footer > div {
 .camera {
   background-color: #f8f9fa;
   border: 1px solid #dadce0;
-  color: #202124;background-color: #f8f9fa;
+  color: #202124;
+  background-color: #f8f9fa;
   border: 1px solid #f8f9fa;
   border-radius: 4px;
   color: #3c4043;
@@ -212,4 +223,12 @@ main button:hover {
   background-color: #f8f9fa;
   border: 1px solid #dadce0;
   color: #202124;
+}
+
+.leaf-icon {
+  height: 14px;
+}
+
+.leaf-icon + a {
+  padding-left: 6px;
 }
